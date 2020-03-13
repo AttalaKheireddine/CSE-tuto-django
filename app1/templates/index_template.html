@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>this is CSE training</h1>
+    <hr>
+    <p> it is great to be at CSE</p>
+
+    <p>time is equal to {{time}}</p>
+    {% for article in articles %}
+    <hr>
+    <h1>{{article.title}}</h1>
+    <p>{{article.content}}</p>
+    <p>wtitten by <i>{{article.author}}</i></p>
+    {% endfor %}
+</body>
+
+</html>
